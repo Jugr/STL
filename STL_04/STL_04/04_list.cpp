@@ -118,7 +118,7 @@ void test406() {
 
 
 
-int main() {
+int main4() {
 	//test401();
 	//test405();
 	test406();

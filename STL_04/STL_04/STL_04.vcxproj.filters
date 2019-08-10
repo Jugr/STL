@@ -27,5 +27,11 @@
     <ClCompile Include="04_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05_set容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06_pair.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

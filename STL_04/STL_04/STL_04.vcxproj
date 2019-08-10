@@ -127,6 +127,8 @@
     <ClCompile Include="02_stack.cpp" />
     <ClCompile Include="03_queue.cpp" />
     <ClCompile Include="04_list.cpp" />
+    <ClCompile Include="05_set容器.cpp" />
+    <ClCompile Include="06_pair.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
