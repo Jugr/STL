@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="01_map.cpp" />
     <ClCompile Include="02_multimap.cpp" />
+    <ClCompile Include="03_容器的深浅拷贝.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

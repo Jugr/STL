@@ -21,5 +21,8 @@
     <ClCompile Include="02_multimap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_容器的深浅拷贝.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

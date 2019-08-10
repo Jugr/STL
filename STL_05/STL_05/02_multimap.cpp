@@ -22,8 +22,8 @@ class Worker
 public:
 	string mName;
 	string mTele;
-	int mAge;
-	int mSalary;
+	int mAge=0;
+	int mSalary=0;
 };
 
 //创建员工
