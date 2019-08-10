@@ -1,0 +1,29 @@
+1.deque  双端数组
+            在两端插入和删除效率都较高 ，在指定位置插入，也会引起元素的移位
+            支持随机访问
+2.stack   先进后出
+  	不能遍历 不提供迭代器，不支持随机访问
+	while(!stack,empty()){
+	    cout<<stack.top()<<endl;
+	    stack.pop();		
+	}
+3.queue队列 先进先出
+	不能遍历 不提供迭代器，不支持随机访问
+	while(!queue.empty()){
+	    cout<<queue.front()<<endl;	
+	   queue.pop();		
+	}
+
+
+deque支持push_front、pop_front、push_back、pop_back。
+queue支持push_back、pop_front。
+
+4.list容器   常用 stl中是双向链表
+	在任何位置插入和删除效率都较高 因为不用移动元素
+	缺点：不支持随机访问 ，为保持前驱后继关系需要额外空间开销
+	自己提供了sort() 
+	find()  查找基础数据类型、查找对象（提供回调条件）
+5.pair  将两个值合并成一个值
+	pair<string，int>pair1;
+	make_pair("aaa",1);
+	pair3  = pair1;
