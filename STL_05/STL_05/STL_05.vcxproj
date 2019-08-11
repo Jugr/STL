@@ -126,6 +126,9 @@
     <ClCompile Include="01_map.cpp" />
     <ClCompile Include="02_multimap.cpp" />
     <ClCompile Include="03_容器的深浅拷贝.cpp" />
+    <ClCompile Include="04_函数对象.cpp" />
+    <ClCompile Include="05_内建函数对象.cpp" />
+    <ClCompile Include="06_函数对象适配器.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

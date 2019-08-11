@@ -88,9 +88,15 @@ void test103() {
 	mymap.insert(make_pair(2, 2));
 	mymap.insert(make_pair(3, 3));
 
+	//若存在，返回该对象元素的迭代器 否则返回map.end()
+	//mymap.find(key);
+
+
 	//第一个是lower_bound  第二个是upper_bound
+	//lower_bound(keyelem)返回第一个key<=keyelem元素的迭代器
+	//upper_bound(keyelem)返回第一个key>keyelem元素的迭代器
 	pair<map<int,int>::iterator, map<int, int>::iterator> ret = mymap.equal_range(2);
-	if (ret.first->second) {
+	if (ret.first->second) {//->second是bool类型 指是否找到
 		cout << "找到lower_bound" << endl;
 	}
 	else {
@@ -104,7 +110,7 @@ void test103() {
 		cout << "没有找到upper_bound" << endl;
 	}
 
-	/*
+	/*输出：
 	找到lower_bound
 	找到upper_bound
 	*/
@@ -112,7 +118,7 @@ void test103() {
 }
 
 
-int main() {
+int main1() {
 	//test101();
 	//test102();
 	test103();

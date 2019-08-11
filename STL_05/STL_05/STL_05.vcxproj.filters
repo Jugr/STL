@@ -24,5 +24,14 @@
     <ClCompile Include="03_容器的深浅拷贝.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="04_函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_内建函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06_函数对象适配器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
